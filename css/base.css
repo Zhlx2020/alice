@@ -1,0 +1,128 @@
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: inline-block
+}
+
+ul,
+div,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+img {
+    display: block;
+}
+
+.app {
+    width: 100%;
+    min-width: 1002px;
+    height: 100%;
+    min-height: 600px;
+}
+
+.app .app-nav {
+    background-image: url(../images/nav-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66px;
+    overflow: hidden;
+    border-bottom: solid 7px #888;
+    position: relative;
+}
+
+.app .app-nav-inner {
+    width: 1002px;
+    margin: 0 auto;
+}
+
+.app .app-nav .nav-logo {
+    margin-left: 80px;
+    float: left;
+    margin-top: 10px;
+}
+
+.app .app-nav .nav-logo img {
+    width: 69px;
+    height: 56px;
+}
+
+.clear:after {
+    content: "";
+    /*设置内容为空*/
+    height: 0;
+    /*高度为0*/
+    line-height: 0;
+    /*行高为0*/
+    display: block;
+    /*将文本转为块级元素*/
+    visibility: hidden;
+    /*将元素隐藏*/
+    clear: both;
+    /*清除浮动*/
+}
+
+.app .app-nav .nav-list {
+    width: 80%;
+    float: left;
+    margin-left: 37px;
+    margin-top: 13px;
+}
+
+.app .app-nav .nav-list .nav-itme {
+    float: left;
+    height: 40px;
+    width: 18%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.app .app-nav .nav-list .nav-itme a {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    height: 100%;
+    color: #DADBDC;
+}
+
+.app .app-nav .nav-list .nav-itme a:hover {
+    transition: 0.3s ease;
+    border-bottom: yellow 5px solid;
+}
+
+.app .app-nav .nav-list .nav-itme-right,
+.app .app-nav .nav-list .nav-itme-left {
+    float: left;
+    width: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.app .app-main {
+    height: 1300px;
+    background-image: url(../images/app-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+}
+
+.app-main .main-continer {
+    width: 1002px;
+    margin: 0 auto;
+}
